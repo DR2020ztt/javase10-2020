@@ -15,6 +15,8 @@ public class Test20 {
 			{
 				result=i;
 			}
+			
+			
 		}
 		System.out.println(m+"和"+n+"的最大公约数是"+result);
 	
