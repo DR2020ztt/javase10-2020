@@ -1,4 +1,4 @@
-package com.neuedu.test.chapter5;
+ package com.neuedu.test.chapter5;
 
 public class Test4 {
 
@@ -7,22 +7,26 @@ public class Test4 {
 
 		
 		//  编写一个方法，求整数n的阶乘，例如5的阶乘是1*2*3*4*5。 
-		jiecheng(5);
 		
+		System.out.println(jiecheng(5));
+		
+		System.out.println(isLeapYear(2020));
 		System.out.println(zhishu(200));
 		
 	}
 	public static int jiecheng(int n)
 	{
 		int sum=1;
-		for(int i=1;i<=1;i--)
+		for(int i=n;i>1;i--)
 		{
 			
 			sum*=i;
 		}
 		return sum;
 		
+		
 	}
+	
 	
 	
 	//编写一个方法，判断该年份是平年还是闰年。 
