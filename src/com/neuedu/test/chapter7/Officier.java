@@ -38,9 +38,18 @@ public class Officier extends Employee{
 		System.out.println(this.name+","+this.age+","+this.department
 				           +","+this.vehicleAllowance);
 	}
-	public void work()
+	/*public void work()
 	{
 		System.out.println("work officier");
+	}*/
+	@Override
+	public void getDetail()
+	{
+		/*System.out.println(
+				this.name+","+this.age+","+this.department
+				+","+this.vehicleAllowance);*/
+		super.getDetail();
+		System.out.println(this.vehicleAllowance);
 	}
 	//super和this什么时候有区别
 	//当父类与子类中有不同的方法调用->用this和super没有区别
@@ -48,14 +57,14 @@ public class Officier extends Employee{
 	public void test()
 	{
 		//super在子类中访问，代表父类对象
-		System.out.println(super.name+","+super.age+","+super.department);
-		System.out.println(this.name+","+this.age+","+this.department);
+		//System.out.println(super.name+","+super.age+","+super.department);
+		//System.out.println(this.name+","+this.age+","+this.department);
 	
 		
 		//调用当前对象的work方法
-		this.work();
+		//this.work();
 		//调用父类对象的work方法
-		super.work();
+		//super.work();
 	
 	}
 
@@ -74,10 +83,10 @@ public class Officier extends Employee{
 		
 		//有参的
 		Officier o2=new Officier(200);
-		o2.work();
+		//o2.work();
 		
-		Officier o3=new Officier("xiaoming",18,"rea",200.0);
+		Officier o3=new Officier("ming",18,"rea",200.0);
 	
-		o3.work();
+		o3.getDetail();
 	}
 }

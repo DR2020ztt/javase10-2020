@@ -19,9 +19,10 @@ public class Employee {
 	}
 	
 	
-	public void work()
+	public void getDetail()
 	{
-		System.out.println("worker");
+		System.out.println(
+				this.name+","+this.age+","+this.department);
 	}
 
 }

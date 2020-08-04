@@ -23,7 +23,7 @@ public class Worker extends Employee{
 		o.department="research";
 		o.dressAllowance=200;
 		
-		o.work();
+		//o.work();
 		o.getDressAllowance();
 	}
 

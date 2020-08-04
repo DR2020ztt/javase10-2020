@@ -10,8 +10,8 @@ package com.neuedu.test.chapter6;
 public class Point {
 	
 
-	int x;
-	int y;
+	protected int x;
+	protected int y;
 	public Point()
 	{
 		this(10,10);
