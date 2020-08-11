@@ -17,15 +17,15 @@ public class TestStringBuffer {
 
 		StringBuffer buffer=new StringBuffer("hello");
 		
-		buffer.append("world");
+		//buffer.append("world");
 		
-		/*System.out.println(buffer);
-		System.out.println(buffer.toString());
+		//System.out.println(buffer);
+		//System.out.println(buffer.toString());
 		
-		String str=buffer.toString();
+		//String str=buffer.toString();
 		
 		buffer.insert(1,"W");
-		System.out.println(buffer);*/
+		//System.out.println(buffer);
 		
 		//buffer.deleteCharAt(1);
 		//System.out.println(buffer);
@@ -33,7 +33,7 @@ public class TestStringBuffer {
 		//buffer.delete(1,4);
 		//System.out.println(buffer);
 		
-		buffer.replace(0, 2, "abc");
+		//buffer.replace(0, 2, "abc");
 		System.out.println(buffer);
 		
 		StringBuilder builder=new StringBuilder();
